@@ -21,7 +21,7 @@ public class PasswordGenerator
         // original password can be recovered. The output should be annotated and neatly
         // formatted.
 
-        // Create a scanner object to read user input
+        // Create a scanner object to read user input and array for User objects. 
         Scanner scan = new Scanner(System.in);
         ArrayList<User> allUsers = new ArrayList<User>();
 
